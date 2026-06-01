@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # h-stats.sh: HiveOS SOURCEA este script y lee las variables $khs y $stats (NO echo).
 # Reporta el hashrate del kangaroo de este rig (MK/s -> kH/s).
-LOG=/hive/miners/custom/kangaroo135v2/log_kangaroo.txt
+LOG=/hive/miners/custom/kangaroo135v3/log_kangaroo.txt
 mk=$(grep -aoE '[0-9]+\.[0-9]+ MK(ey)?/s' "$LOG" 2>/dev/null | tail -1 | grep -oE '^[0-9.]+')
 [ -z "$mk" ] && mk=0
 khs=$(awk "BEGIN{printf \"%.0f\", $mk*1000}")

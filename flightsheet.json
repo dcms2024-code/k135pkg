@@ -1,5 +1,5 @@
 {
-  "name": "kangaroo135v2-puzzle",
+  "name": "kangaroo135v3-puzzle",
   "isFavorite": false,
   "items": [
     {
@@ -7,12 +7,12 @@
       "pool_ssl": false,
       "dpool_ssl": false,
       "miner": "custom",
-      "miner_alt": "kangaroo135v2",
+      "miner_alt": "kangaroo135v3",
       "miner_config": {
         "url": "192.168.1.48:17403",
-        "miner": "kangaroo135v2",
+        "miner": "kangaroo135v3",
         "template": "%WORKER_NAME%",
-        "install_url": "https://github.com/dcms2024-code/k135pkg/releases/download/v3/kangaroo135v2-hiveos.tar.gz"
+        "install_url": "https://github.com/dcms2024-code/k135pkg/releases/download/v4/kangaroo135v3-hiveos.tar.gz"
       },
       "pool_geo": []
     }
