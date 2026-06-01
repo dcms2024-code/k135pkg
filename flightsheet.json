@@ -1,0 +1,20 @@
+{
+  "name": "kangaroo135v2-puzzle",
+  "isFavorite": false,
+  "items": [
+    {
+      "coin": "BTC",
+      "pool_ssl": false,
+      "dpool_ssl": false,
+      "miner": "custom",
+      "miner_alt": "kangaroo135v2",
+      "miner_config": {
+        "url": "192.168.1.48:17403",
+        "miner": "kangaroo135v2",
+        "template": "%WORKER_NAME%",
+        "install_url": "https://github.com/dcms2024-code/k135pkg/releases/download/v3/kangaroo135v2-hiveos.tar.gz"
+      },
+      "pool_geo": []
+    }
+  ]
+}
